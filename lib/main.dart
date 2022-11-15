@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'modules/splash/screens/splash_screen.dart';
+import 'package:qktrade_app/screens/reports/reports_tab_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +14,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const SplashScreen(),
+      home: ReportsTabScreen(),
     );
   }
 }
