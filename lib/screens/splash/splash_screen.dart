@@ -1,6 +1,9 @@
+import 'dart:async';
+
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
-import 'package:qktrade_app/modules/auth/screens/auth_screen.dart';
+import 'package:qktrade_app/constents/routes.dart';
+import 'package:qktrade_app/constents/string.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -66,7 +69,7 @@ class _SplashScreenState extends State<SplashScreen>
                 child: AnimatedTextKit(
                   animatedTexts: [
                     ColorizeAnimatedText(
-                      'QK TRADE',
+                      AppConstants.appName,
                       textStyle: const TextStyle(
                         fontSize: 32.0,
                         color: Colors.white,
@@ -81,8 +84,7 @@ class _SplashScreenState extends State<SplashScreen>
 
   void navigateToNextPage() {
     Future.delayed(const Duration(seconds: 10), () {
-      Navigator.pushReplacement(context,
-          MaterialPageRoute(builder: ((context) => const AuthScreen())));
+      Navigator.pushReplacementNamed(context, Routes.report);
     });
   }
 

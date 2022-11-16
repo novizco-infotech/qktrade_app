@@ -12,7 +12,8 @@ class _ReportsTabScreenState extends State<ReportsTabScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Reports'),
+        title: const Text('Reports'),
+        automaticallyImplyLeading: false,
       ),
       body: const Center(
         child: Text('Reports to come here'),
