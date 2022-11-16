@@ -25,7 +25,7 @@ class MainDrawer extends StatelessWidget {
               CustomerTabScreen.routeName,
             ),
             child: const ListTile(
-              leading: Icon(Icons.folder_special),
+              leading: Icon(Icons.people),
               title: Text('Customers'),
             ),
           ),
@@ -35,23 +35,29 @@ class MainDrawer extends StatelessWidget {
               ReportTabScreen.routeName,
             ),
             child: const ListTile(
-              leading: Icon(Icons.folder_special),
+              leading: Icon(Icons.bar_chart),
               title: Text('Reports'),
             ),
           ),
           const Divider(),
-          BlocBuilder<ThemeBloc, ThemeState>(
-            builder: (context, state) {
-              return Switch(
-                value: state.themeValue,
-                onChanged: (newValue) {
-                  newValue
-                      ? context.read<ThemeBloc>().add(ThemeLightEvent())
-                      : context.read<ThemeBloc>().add(ThemeDarkEvent());
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            children: [
+              Text('Dark Mode'),
+              BlocBuilder<ThemeBloc, ThemeState>(
+                builder: (context, state) {
+                  return Switch(
+                    value: state.themeValue,
+                    onChanged: (newValue) {
+                      newValue
+                          ? context.read<ThemeBloc>().add(ThemeLightEvent())
+                          : context.read<ThemeBloc>().add(ThemeDarkEvent());
+                    },
+                  );
                 },
-              );
-            },
-          )
+              )
+            ],
+          ),
         ]),
       ),
     );
