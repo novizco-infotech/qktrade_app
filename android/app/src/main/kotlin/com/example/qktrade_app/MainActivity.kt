@@ -1,4 +1,4 @@
-package com.example.qktrade_app
+package com.novizco.qktrade
 
 import io.flutter.embedding.android.FlutterActivity
 

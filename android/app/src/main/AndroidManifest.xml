@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.qktrade_app">
+    package="com.novizco.qktrade">
    <application
         android:label="qktrade_app"
         android:name="${applicationName}"
