@@ -4,9 +4,11 @@ import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
 import 'package:qktrade_app/constents/routes.dart';
 import 'package:qktrade_app/constents/string.dart';
+import 'package:qktrade_app/screens/report/report_tab_screen.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
+  static const routeName = 'splash_tab';
 
   @override
   State<SplashScreen> createState() => _SplashScreenState();
@@ -83,8 +85,8 @@ class _SplashScreenState extends State<SplashScreen>
   }
 
   void navigateToNextPage() {
-    Future.delayed(const Duration(seconds: 10), () {
-      Navigator.pushReplacementNamed(context, Routes.report);
+    Future.delayed(const Duration(seconds: 8), () {
+      Navigator.pushReplacementNamed(context, ReportTabScreen.routeName);
     });
   }
 
