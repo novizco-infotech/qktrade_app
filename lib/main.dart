@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:hydrated_bloc/hydrated_bloc.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:qktrade_app/screens/report/report_tab_screen.dart';
+import 'package:qktrade_app/screens/splash/splash_screen.dart';
 import 'package:qktrade_app/services/app_router.dart';
 import 'package:qktrade_app/services/app_theme.dart';
 import './blocs/bloc_exports.dart';
@@ -38,7 +40,7 @@ class MyApp extends StatelessWidget {
             theme: state.themeValue
                 ? AppThemes.appThemeData[AppTheme.darkTheme]
                 : AppThemes.appThemeData[AppTheme.lightTheme],
-            home: ReportTabScreen(),
+            initialRoute: SplashScreen.routeName,
             onGenerateRoute: appRouter.onGenerateRoute,
           );
         },
