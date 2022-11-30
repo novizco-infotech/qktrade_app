@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "471012901027",
+    "project_id": "flutter-apps-a0e14",
+    "storage_bucket": "flutter-apps-a0e14.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:471012901027:android:ddd2d435a4b35c1aa93f16",
+        "android_client_info": {
+          "package_name": "com.novizco.qktrade"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "471012901027-kvn5kqu5q42jig5bhbnm513b97bfiiom.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpnOVpfJOOkVzucfFdPAehCOBNxzV1vs8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "471012901027-kvn5kqu5q42jig5bhbnm513b97bfiiom.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "471012901027-9kfgge7lousmsv4v55dng1fav28no3t8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.novizco.qktrade"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

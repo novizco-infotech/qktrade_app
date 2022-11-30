@@ -4,9 +4,15 @@ import 'package:qktrade_app/screens/report/report_tab_screen.dart';
 import 'package:qktrade_app/services/app_router.dart';
 import 'package:qktrade_app/services/app_theme.dart';
 import './blocs/bloc_exports.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'firebase_options.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
 
   final storage = await HydratedStorage.build(
     storageDirectory: await getApplicationDocumentsDirectory(),
