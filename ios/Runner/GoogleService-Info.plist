@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>471012901027-9kfgge7lousmsv4v55dng1fav28no3t8.apps.googleusercontent.com</string>
+	<string>1021674468700-h2n4nb8ps6ife0tnn4olcrgbis71i2bv.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.471012901027-9kfgge7lousmsv4v55dng1fav28no3t8</string>
+	<string>com.googleusercontent.apps.1021674468700-h2n4nb8ps6ife0tnn4olcrgbis71i2bv</string>
 	<key>API_KEY</key>
-	<string>AIzaSyDdNnOpIx_UpjdyflLiVWw4iJ7Ms80ZuXQ</string>
+	<string>AIzaSyCYm9F98enTjliLZbZAbQjEg5VPSHQd2Hs</string>
 	<key>GCM_SENDER_ID</key>
-	<string>471012901027</string>
+	<string>1021674468700</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>com.novizco.qktrade</string>
 	<key>PROJECT_ID</key>
-	<string>flutter-apps-a0e14</string>
+	<string>pc-api-8142476895956216413-226</string>
 	<key>STORAGE_BUCKET</key>
-	<string>flutter-apps-a0e14.appspot.com</string>
+	<string>pc-api-8142476895956216413-226.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:471012901027:ios:7af4a66a6ecea388a93f16</string>
+	<string>1:1021674468700:ios:259daa7bcb40627bb0fd99</string>
 </dict>
 </plist>
